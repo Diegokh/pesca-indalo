@@ -7,12 +7,11 @@
     --grisclaro: #DFE9F3
 }
 
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+body {
+    margin: 0px;
 }
 
-.Encabezado{
+.encabezado{
     text-align: center;
     background-color: blueviolet;
     color: yellowgreen;
@@ -23,14 +22,16 @@
     background-color: black;
 }
 
-.nav{
-    
+.navbar {
+    font-size: 2rem;
+    font-weight: 500;
 }
-.nav a{
+.navbar a{
     color: var(--primario);
-    text-align: center;
+    text-align: right;
 }
 /*Seccion de bienvenida*/
+
 .hbienvenida{
     color: bisque;
     text-align: center;
