@@ -1,0 +1,46 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.Encabezado{
+    text-align: center;
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+/*Barra de navegación*/
+.nav-b{
+    background-color: black;
+}
+
+.nav{
+    
+}
+.nav a{
+    color: var(--primario);
+    text-align: center;
+}
+/*Seccion de bienvenida*/
+.hbienvenida{
+    color: bisque;
+    text-align: center;
+}
+
+html{
+    background-color: blueviolet;
+}
+
+.textbvn{
+    text-align: center;
+    background-color: blanchedalmond;
+}
