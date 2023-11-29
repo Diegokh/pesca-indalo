@@ -4,41 +4,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/estilo.css">
-  <title>PescaIndalo - </title>
+  <link rel="stylesheet" href="css/css.css">
+  <title>PescaIndalo</title>
 </head>
 
+
 <body>
-  <header class="encabezado">
+
+  <header class="Encabezado">
+
+    <img class="imgenc" src="/imgn/pesca.png">
+    <div>
+      <h1>PescaIndalo</h1>
+    </div>
+  
     <!--Barra de navegación-->
-      <nav class="navbar">
+    <div class="nav-b">
+      <nav class="nav-prin contenedor">
         <a href="index.html">Inicio</a>
-        <a href="/html/Modalidades.html">Modalidades</a>
-        <a href="/html/Recomendaciones.html">Recomendaciones</a>
-        <a href="/html/Torneos.html">Torneos</a>
-        <a href="/html/Mapa.html">Mapa</a>
-        <a href="/html/Blog.html">Blog</a>
+        <a href="/Modalidades.html">Modalidades</a>
+        <a href="/Recomendaciones.html">Recomendaciones</a>
+        <a href="/Torneos.html">Torneos</a>
+        <a href="/Mapa.html">Mapa</a>
+        <a href="/Blog.html">Blog</a>
       </nav>
     </div>
   </header>
+  
 
   <!--Bienvenida-->
-  <main>
-      <section class="hbienvenida">
+  <main class="sombra contenedor">
+    <section>
+      <div class="hbienvenida">
         <h3>Bienvenido a PescaIndalo,tu web de pesca en Almería</h3>
-      </section>
-      <section class="textbvn">
+      </div>
+      <div class="textbvn cajatext">
         <p>
           En esta web podras encontrar informacion sobre las diferentes
           Modalidades de pesca,recomendaciones de utensilios y cebo, un blog con
           guias,ademas podras encontrar un mapa con las zonas de pesca en
           Almería junto la prevision meteorologica de la zonas y un calendario
-          con los Torneos que habra en la provincia de Almería
+          con los Torneos que habra en la provincia de Almeria
         </p>
-        <img src="/imgn/pesca-recreativa-en-aguas-exteriores-1024x683.jpg">
-      </section>
+      </div>
+    </section>
+    <section class="midprin caja">
+      <h2 class="titprin">Secciones Principales</h2>
+      <div class="sec1">
+        <a href="/Recomendaciones.html">Recomendaciones</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-thumb-up" width="48" height="48"
+          viewBox="0 0 24 24" stroke-width="2.5" stroke="#000000" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" />
+        </svg>
+        <p class="tsec1">Podras ver nuestras recomendaciones sobre equipamiento de pesca</p>
+      </div>
+      <div class="sec2">
+        <a href="/Torneos.html">Torneos</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy-filled" width="48"
+          height="48" viewBox="0 0 24 24" stroke-width="2.5" stroke="#000000" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M17 3a1 1 0 0 1 .993 .883l.007 .117v2.17a3 3 0 1 1 0 5.659v.171a6.002 6.002 0 0 1 -5 5.917v2.083h3a1 1 0 0 1 .117 1.993l-.117 .007h-8a1 1 0 0 1 -.117 -1.993l.117 -.007h3v-2.083a6.002 6.002 0 0 1 -4.996 -5.692l-.004 -.225v-.171a3 3 0 0 1 -3.996 -2.653l-.003 -.176l.005 -.176a3 3 0 0 1 3.995 -2.654l-.001 -2.17a1 1 0 0 1 1 -1h10zm-12 5a1 1 0 1 0 0 2a1 1 0 0 0 0 -2zm14 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2z"
+            stroke-width="0" fill="currentColor" />
+        </svg>
+        <p class="tsec2">En esta seccion podras ver los proximos torneos en la provincia de almeria</p>
+      </div>
+      <div class="sec3">
+        <a href="/Mapa.html">Mapa</a>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="48" height="48"
+          viewBox="0 0 24 24" stroke-width="2.5" stroke="#000000" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+          <path d="M9 4v13" />
+          <path d="M15 7v5.5" />
+          <path
+            d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
+          <path d="M19 18v.01" />
+        </svg>
+        <p class="tsec3">En esta seccion podras ver las mejores zonas de pesca en la provincia</p>
+      </div>
+    </section>
+
   </main>
-  <footer>Diego Blanque Saavedra.Todos los derechos reservados.©</footer>
+  <footer class="paginap">Diego Blanque Saavedra.Todos los derechos reservados.©</footer>
 </body>
 
 </html>
