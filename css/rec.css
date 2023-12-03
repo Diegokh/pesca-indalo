@@ -1,0 +1,18 @@
+/*Centrar imagenes*/
+img{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin:auto
+}
+
+html{
+    background-color: #f8f9fa;
+}
+
+h2{
+    font-family: 'Playpen Sans';
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.8rem;
+}

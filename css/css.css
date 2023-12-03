@@ -5,11 +5,18 @@
     --secundario: #0097a7;
     --gris: #757575;
     --grisclaro: #DFE9F3;
-    --azul: #0000ff;
+    --azul: #007bff;
     --azulclaro: #00CCFF;
     --azulmed:	#4169E1;
     --verde:#89AC76;
     --marron:#C58A3E;
+    --light:#f8f9fa;
+    --prueba:#D5D5D5;
+    --paletton1:#6DCDD6;
+    --paletton2:#42B7C2;
+    --paletton3:#22A7B3;
+    --paletton4:#029AA8;
+    --paletton5:#016F79;
 }
 
 
@@ -46,14 +53,10 @@
   }
 
   html{
-    background-color: var(--azulmed)
+    background-color: var(--light)
 }
 
-.imgenc{
-    float: right;
-    width: 105px;
-    height: 105px;
-}
+
 
 
 /*Fondo encabezado
@@ -76,13 +79,16 @@ body{
 
 
 
+
+
 .Encabezado{
     text-align: center;
    /* background-color: var(--azulclaro);*/
-    color: var(--blanco);
+    color: var(--paletton1);
     font-family: 'Krub';
     font-weight: bold;
     font-size: 1.6rem;
+    background-color: var(--paletton4);
 }
 
 
@@ -96,11 +102,11 @@ body{
 
 /*Barra de navegación*/
 .nav-b{
-    background-color: var(--verde);
+    background-color: var(--azulclaro);
 }
 
 .nav-prin{
-    display: flex;
+    display: flex-end;
     justify-content: space-between;
 }
 
@@ -111,13 +117,14 @@ body{
     text-decoration: none;
     padding: 1rem;
     text-align: center;
-    color: var(--blanco);
+    color: var(--oscuro);
+    
 
 }
 
 .nav-prin a:hover{
-    background-color: var(--primario);
-    color: var(--blanco);
+   /* background-color: var(--primario);*/
+    color: var(--oscuro);
 }
 
 
@@ -125,11 +132,14 @@ body{
 
 /*Seccion de bienvenida*/
 .hbienvenida{
-    color: var(--marron);
+    color: var(--paletton1);
     text-align: center;
     font-family: 'Playpen Sans';
     font-weight: 500;
 }
+
+/*Borde bienvenida*/
+
 
 /*secciones*/
 .midprin{
@@ -151,7 +161,7 @@ body{
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 4px solid #000000;
-background-color: var(--marron);
+background-color: var(--verde);
 }
 
 .caja{
@@ -159,7 +169,7 @@ background-color: var(--marron);
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 4px solid #000000;
-    background-color: var(--marron);
+    background-color: var(--verde);
    
 }
 /*Titulo secciones*/
@@ -224,13 +234,13 @@ background-color: var(--marron);
 }
 
 .midprin a:hover{
-    background-color: var(--primario);
+   /* background-color: var(--primario);*/
     color: var(--blanco);
 }
 /*Pie de pagina*/
 .paginap{
     text-align: center;
     color: var(--oscuro);
-    margin-top: 4rem;
+    margin-top: 6.2rem;
     font-family: 'Krub';
 }
