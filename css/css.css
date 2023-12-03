@@ -53,7 +53,7 @@
   }
 
   html{
-    background-color: var(--light)
+    background-color: var(--azulclaro)
 }
 
 
@@ -84,11 +84,10 @@ body{
 .Encabezado{
     text-align: center;
    /* background-color: var(--azulclaro);*/
-    color: var(--paletton1);
+    color: var(--oscuro);
     font-family: 'Krub';
     font-weight: bold;
     font-size: 1.6rem;
-    background-color: var(--paletton4);
 }
 
 
@@ -102,7 +101,7 @@ body{
 
 /*Barra de navegación*/
 .nav-b{
-    background-color: var(--azulclaro);
+    background-color: var(--verde);
 }
 
 .nav-prin{
@@ -123,7 +122,7 @@ body{
 }
 
 .nav-prin a:hover{
-   /* background-color: var(--primario);*/
+   background-color: var(--primario);
     color: var(--oscuro);
 }
 
@@ -132,7 +131,7 @@ body{
 
 /*Seccion de bienvenida*/
 .hbienvenida{
-    color: var(--paletton1);
+    color: var(--oscuro);
     text-align: center;
     font-family: 'Playpen Sans';
     font-weight: 500;
@@ -237,10 +236,20 @@ background-color: var(--verde);
    /* background-color: var(--primario);*/
     color: var(--blanco);
 }
+/*Fotopesca*/
+
+.pescamain{
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 /*Pie de pagina*/
 .paginap{
     text-align: center;
     color: var(--oscuro);
-    margin-top: 6.2rem;
+    margin-top: 0.5rem;
     font-family: 'Krub';
 }
